@@ -1,0 +1,5 @@
+{
+  "buildCommand": "VITE_BASE=/demo/ npm run build -- --outDir dist/demo",
+  "outputDirectory": "dist",
+  "redirects": [{ "source": "/", "destination": "/demo/" }]
+}
